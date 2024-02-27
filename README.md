@@ -244,13 +244,13 @@ This project cannot be developed without the following resources:
 If you find our work is useful to you, please cite our work:
 
 ```bibtex
-@misc{liu2024SelectIT,
+@misc{liu2024selectit,
    title={SelectIT: Selective Instruction Tuning for Large Language Models via Uncertainty-Aware Self-Reflection}, 
-   author={xxx},
+   author={Liangxin Liu and Xuebo Liu and Derek F. Wong and Dongfang Li and Ziyi Wang and Baotian Hu and Min Zhang},
    year={2024},
-   eprint={xxx},
-   archivePrefix={arXiv},
-   primaryClass={cs.CL}
+   journal={arXiv preprint arXiv:2402.16705},
 }
 ```
+
+
 
