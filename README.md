@@ -176,7 +176,6 @@ python -m eval.mmlu.run_eval \
     --model_name_or_path ../hf_llama_models/7B \
     --tokenizer_name_or_path ../hf_llama_models/7B \
     --eval_batch_size 4 \
-    --load_in_8bit
 ```
 
 - GSM
@@ -214,7 +213,6 @@ python -m eval.tydiqa.run_eval \
     --model ../hf_llama_model/7B \
     --tokenizer ../hf_llama_model/7B \
     --eval_batch_size 20 \
-    --load_in_8bit
 ```
 
 - AlpacaEval
