@@ -55,7 +55,6 @@ def rating(model_name_or_path, rps, k, alpha):
                     tmp_res = [float(softmax_logits[index][29896]), float(softmax_logits[index][29906]),
                                float(softmax_logits[index][29941]), float(softmax_logits[index][29946]),
                                float(softmax_logits[index][29945])]
-                    # print(tmp_res)
                     pro.append(tmp_res)
             except Exception as ex:
                 print(ex)

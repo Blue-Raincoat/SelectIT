@@ -71,7 +71,6 @@ if __name__ == "__main__":
                                float(softmax_logits[index][29941]), float(softmax_logits[index][29946]),
                                float(softmax_logits[index][29945])]
                     pro.append(tmp_res)
-                    print(np.argmax(tmp_res))
             except Exception as ex:
                 print(ex)
     pro_softmax = []
