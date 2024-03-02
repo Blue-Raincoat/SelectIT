@@ -84,7 +84,7 @@ if __name__ == "__main__":
         for idx, item in enumerate(tmp_pro_softmax):
             tmp0_pro_softmax.append(np.exp(tmp_pro_softmax[idx] / sum(tmp_pro_softmax)))
         for jdx, item in enumerate(tmp0_pro_softmax):
-            tmp1_pro_softmax.append(tmp_pro_softmax[jdx] / sum(tmp_pro_softmax))
+            tmp1_pro_softmax.append(tmp0_pro_softmax[jdx] / sum(tmp0_pro_softmax))
         pro_softmax.append(tmp1_pro_softmax)
 
     data_num = int(len(pro_softmax) / k)
