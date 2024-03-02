@@ -125,6 +125,7 @@ deepspeed --master_addr "localhost" --master_port $MASTER_PORT \
     --logging_steps 1 \
     --tf32 True \
     --gradient_checkpointing True
+    
 ```
 
 
@@ -160,6 +161,7 @@ deepspeed --master_addr "localhost" --master_port $MASTER_PORT \
     --logging_steps 1 \
     --tf32 True \
     --gradient_checkpointing True
+    
 ```
 
 
