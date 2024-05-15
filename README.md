@@ -17,10 +17,7 @@ We introduces a novel data selection strategy, SelectIT, for LLM instruction tun
 SelectIT includes three types of self-reflection: token, sentence, and model, which can individually and jointly improve the performance of IT data selection.
 By applying SelectIT to the Alpaca-GPT4 dataset, we introduce a compact and strong IT dataset, called Selective Alpaca. Different models and domain tasks demonstrate the effectiveness of SelectIT.
 Our analysis reveals that SelectIT effectively excludes abnormal data and tends to select longer and calculational data.
-<div align="center">
-    <img width="100%" alt="LLMs-MT" src="./pic/main_pic.jpg">
-    <p class="image-caption">Figure 1: The overall framework of SelectIT.</p>
-</div>
+
 
 
 ### Environment
@@ -38,8 +35,8 @@ pip3 install -r requirements.txt
 
 ## Data
 We introduce a novel IT dataset, Selective Alpaca, by selecting the high-quality IT data from the Alpaca-GPT4 dataset.
-- Alpaca_GPT4:  [Google](https://drive.google.com/file/d/1WQdBGL6zASMArKeXVRMKWSzkMqqe_1ns/view?usp=sharing) [HuggingFace](https://huggingface.co/datasets/liangxin/Alpaca_GPT4)
-- Selective Alpaca: [Google](https://drive.google.com/file/d/1WQdBGL6zASMArKeXVRMKWSzkMqqe_1ns/view?usp=sharing) [HuggingFace](https://huggingface.co/datasets/liangxin/Selective_Alpaca)
+- Alpaca_GPT4:  [Google](https://drive.google.com/file/d/1WQdBGL6zASMArKeXVRMKWSzkMqqe_1ns/view?usp=sharing) 
+- Selective Alpaca: [Google](https://drive.google.com/file/d/1WQdBGL6zASMArKeXVRMKWSzkMqqe_1ns/view?usp=sharing) 
 
 
 
@@ -238,19 +235,6 @@ This project cannot be developed without the following resources:
 - `Alpaca-GPT4` on HuggingFace: https://huggingface.co/datasets/vicgalle/alpaca-gpt4
 - `Open-Instruct`: https://github.com/allenai/open-instruct
 - `LLMZoo`: https://github.com/FreedomIntelligence/LLMZoo/tree/main
-
-## Citation
-
-If you find our work is useful to you, please cite our work:
-
-```bibtex
-@article{liu2024selectit,
-   title={SelectIT: Selective Instruction Tuning for Large Language Models via Uncertainty-Aware Self-Reflection}, 
-   author={Liangxin Liu and Xuebo Liu and Derek F. Wong and Dongfang Li and Ziyi Wang and Baotian Hu and Min Zhang},
-   year={2024},
-   journal={arXiv preprint arXiv:2402.16705},
-}
-```
 
 
 
