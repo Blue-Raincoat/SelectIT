@@ -28,8 +28,6 @@ Framework Versions:
 - Python  >= 3.10.0
 - Transformers == 4.35.0
 ```
-git clone git@github.com:Blue-Raincoat/SelectIT.git
-
 pip3 install -r requirements.txt
 ```
 
