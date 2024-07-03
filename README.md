@@ -2,7 +2,7 @@
 
 <div align="center">
     <h2>
-    SelectIT: Selective Instruction Tuning for LLMs via Uncertainty-Aware Self-Reflection <br><br>
+    SelectIT: Selective Instruction Tuning for Large Language Models via Uncertainty-Aware Self-Reflection <br><br>
     </h2>
 </div>
 
@@ -18,6 +18,10 @@ SelectIT includes three types of self-reflection: token, sentence, and model, wh
 By applying SelectIT to the Alpaca-GPT4 dataset, we introduce a compact and strong IT dataset, called Selective Alpaca. Different models and domain tasks demonstrate the effectiveness of SelectIT.
 Our analysis reveals that SelectIT effectively excludes abnormal data and tends to select longer and calculational data.
 
+<div align="center">
+    <img width="100%" alt="LLMs-MT" src="./pic/main_pic.jpg">
+    <p class="image-caption">Figure 1: The overall framework of SelectIT.</p>
+</div>
 
 
 ### Environment
@@ -28,12 +32,15 @@ Framework Versions:
 - Python  >= 3.10.0
 - Transformers == 4.35.0
 ```
+git clone git@github.com:Blue-Raincoat/SelectIT.git
+
 pip3 install -r requirements.txt
 ```
 
 ## Data
 We introduce a novel IT dataset, Selective Alpaca, by selecting the high-quality IT data from the Alpaca-GPT4 dataset.
-
+- Alpaca_GPT4:  [Google](https://drive.google.com/file/d/1WQdBGL6zASMArKeXVRMKWSzkMqqe_1ns/view?usp=sharing) [HuggingFace](https://huggingface.co/datasets/liangxin/Alpaca_GPT4)
+- Selective Alpaca: [Google](https://drive.google.com/file/d/1WQdBGL6zASMArKeXVRMKWSzkMqqe_1ns/view?usp=sharing) [HuggingFace](https://huggingface.co/datasets/liangxin/Selective_Alpaca)
 
 
 ## Self-Reflection
@@ -232,5 +239,17 @@ This project cannot be developed without the following resources:
 - `Open-Instruct`: https://github.com/allenai/open-instruct
 - `LLMZoo`: https://github.com/FreedomIntelligence/LLMZoo/tree/main
 
+## Citation
+
+If you find our work is useful to you, please cite our work:
+
+```bibtex
+@article{liu2024selectit,
+   title={SelectIT: Selective Instruction Tuning for Large Language Models via Uncertainty-Aware Self-Reflection}, 
+   author={Liangxin Liu and Xuebo Liu and Derek F. Wong and Dongfang Li and Ziyi Wang and Baotian Hu and Min Zhang},
+   year={2024},
+   journal={arXiv preprint arXiv:2402.16705},
+}
+```
 
 
